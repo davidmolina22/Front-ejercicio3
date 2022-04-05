@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Ejercicio 2</title>
+  </head>
+  <body onload="setFormValues()">
+    <h1>Personas</h1>
+    <p>A continuación inserte sus datos</p>
+    <form action="" class="form" id="myform">
+      <label for="">Usuario</label>
+      <input type="text" id="username"/>
+      
+      <label for="">Apellido</label>
+      <input type="text" id="surname"/>
+      
+      <label for="">Contraseña</label>
+      <input type="password" name="" id="password" />
+      
+      <label for="">Email de la compañía</label>
+      <input type="email" name="" id="email_emp" />
+      
+      <label for="">Email personal</label>
+      <input type="email" name="" id="email_person" />
+      
+      <label for="">Ciudad</label>
+      <input type="text" id="city"/>
+      
+      <label for="">Url de la imagen</label>
+      <input type="url" name="" id="imageUrl" />
+      
+      <label for="">Fecha creación</label>
+      <input type="date" name="" id="fecha_creacion" />
+      
+      <label for="">Activado</label>
+      <input type="checkbox" name="" id="active" />
+      
+      <label for="">Fecha finalización</label>
+      <input type="date" name="" id="fecha_fin" />
+    </form>
+    <div class="buttons">
+      <button onclick="send()">Editar</button>
+      <button onclick="reset()">Limpiar</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "prueba",
+      "surname": "probando",
+      "password": "prueba123",
+      "email_emp": "prueba@prueba.com",
+      "email_person": "prueba@bosonit.com",
+      "city": "Jaén",
+      "imageUrl": "prueba.com/123",
+      "fecha_creacion": "2022-04-05",
+      "active": "on",
+      "fecha_fin": "2022-04-07"
+    },
+    {
+      "username": "dmolina231",
+      "surname": "Molina",
+      "password": "prueba123",
+      "email_emp": "david.molina@bosonit.com",
+      "email_person": "davidmolina@prueba.com",
+      "city": "Jaén",
+      "imageUrl": "prueba.com/1234",
+      "fecha_creacion": "2022-04-05",
+      "active": "on",
+      "fecha_fin": "2022-04-19",
+      "id": 2
+    }
+  ]
+}
